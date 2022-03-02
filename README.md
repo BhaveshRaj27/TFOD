@@ -31,9 +31,17 @@ Basic structure of Faster RCNN. Instead of VGG I am using Resnet.
 # Inference
 The model provide the Final Loss=0.15396827   . The metrics use is Precision. The value of the precision is 0.592879. This tell  us that about 60 % True positive(correct prediction) in total True prediction done by model. The result can be much better if batch size can be increased (I used batch size as 4 due limited GPU memory I have).  Batch size 32 or 64 will be giving better result. RCNN model is has provided good results as its full filled most of the analysis point
 
+
 # Recommendation
 1.	Can use different model as per project requirement such as Yolo.
 2.	Should be trained with more data for better results.
 3.	Better machine (GPU) can be used to go with better version of same model I used.
 4.	If time allow write code from scratch and train model from scratch. It will give more control over model.
+
+# Outputs
+![](https://github.com/BhaveshRaj27/TFOD/blob/main/images/out1.png)
+![](https://github.com/BhaveshRaj27/TFOD/blob/main/images/out2.png)
+![](https://github.com/BhaveshRaj27/TFOD/blob/main/images/out3.png)
+![](https://github.com/BhaveshRaj27/TFOD/blob/main/images/out4.png)
+![](https://github.com/BhaveshRaj27/TFOD/blob/main/images/out5.png)
 
